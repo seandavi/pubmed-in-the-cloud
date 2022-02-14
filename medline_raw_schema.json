@@ -1,0 +1,112 @@
+[
+  {
+    "name": "medline_ta",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "other_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pmc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "affiliations",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "delete",
+    "type": "BOOLEAN",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "references",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "keywords",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "chemical_list",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "mesh_terms",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pubdate",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "doi",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "abstract",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "country",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "journal",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issn_linking",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publication_types",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "authors",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pages",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "nlm_unique_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "issue",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pmid",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  }
+]

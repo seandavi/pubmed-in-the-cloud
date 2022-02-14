@@ -1,0 +1,5 @@
+httpx
+orjson
+pubmed_parser
+argparse
+beautifulsoup4

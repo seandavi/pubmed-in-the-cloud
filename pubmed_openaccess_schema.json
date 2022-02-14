@@ -1,0 +1,194 @@
+[
+  {
+    "name": "oa_metadata",
+    "type": "RECORD",
+    "mode": "NULLABLE",
+    "fields": [
+      {
+        "name": "license",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pmc_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pubmed_id",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "lastupdated_at",
+        "type": "TIMESTAMP",
+        "mode": "NULLABLE",
+        "description": "bq-datetime"
+      },
+      {
+        "name": "citation",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "etag",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "retracted",
+        "type": "BOOLEAN",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "key",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "citations",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "journal_type",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "name",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "year",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "article_title",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "journal",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "doi_cited",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pmid_cited",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pmc",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "ref_id",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pmid",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "publication_year",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "subjects",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publication_date",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "full_title",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "publisher_id",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "abstract",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "doi",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "paragraphs",
+    "type": "RECORD",
+    "mode": "REPEATED",
+    "fields": [
+      {
+        "name": "text",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "section",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "reference_ids",
+        "type": "STRING",
+        "mode": "REPEATED"
+      },
+      {
+        "name": "pmid",
+        "type": "INTEGER",
+        "mode": "NULLABLE"
+      },
+      {
+        "name": "pmc",
+        "type": "STRING",
+        "mode": "NULLABLE"
+      }
+    ]
+  },
+  {
+    "name": "pmc",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "pmid",
+    "type": "INTEGER",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "coi_statement",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  },
+  {
+    "name": "journal",
+    "type": "STRING",
+    "mode": "NULLABLE"
+  }
+]
